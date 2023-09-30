@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SetupColorViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
