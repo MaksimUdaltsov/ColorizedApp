@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		971131D02AC72D5B0027703A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971131CF2AC72D5B0027703A /* AppDelegate.swift */; };
 		971131D22AC72D5B0027703A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971131D12AC72D5B0027703A /* SceneDelegate.swift */; };
-		971131D42AC72D5B0027703A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971131D32AC72D5B0027703A /* ViewController.swift */; };
+		971131D42AC72D5B0027703A /* SetupColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971131D32AC72D5B0027703A /* SetupColorViewController.swift */; };
 		971131D72AC72D5B0027703A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971131D52AC72D5B0027703A /* Main.storyboard */; };
 		971131D92AC72D5C0027703A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971131D82AC72D5C0027703A /* Assets.xcassets */; };
 		971131DC2AC72D5C0027703A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971131DA2AC72D5C0027703A /* LaunchScreen.storyboard */; };
+		971132002AC895440027703A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971131FF2AC895440027703A /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		971131CC2AC72D5B0027703A /* ColorizedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971131CF2AC72D5B0027703A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		971131D12AC72D5B0027703A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		971131D32AC72D5B0027703A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		971131D32AC72D5B0027703A /* SetupColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColorViewController.swift; sourceTree = "<group>"; };
 		971131D62AC72D5B0027703A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		971131D82AC72D5C0027703A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971131DB2AC72D5C0027703A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971131DD2AC72D5C0027703A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971131FF2AC895440027703A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				971131CF2AC72D5B0027703A /* AppDelegate.swift */,
 				971131D12AC72D5B0027703A /* SceneDelegate.swift */,
-				971131D32AC72D5B0027703A /* ViewController.swift */,
+				971131D32AC72D5B0027703A /* SetupColorViewController.swift */,
 				971131D52AC72D5B0027703A /* Main.storyboard */,
 				971131D82AC72D5C0027703A /* Assets.xcassets */,
 				971131DA2AC72D5C0027703A /* LaunchScreen.storyboard */,
 				971131DD2AC72D5C0027703A /* Info.plist */,
+				971131FF2AC895440027703A /* StartViewController.swift */,
 			);
 			path = ColorizedApp;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				971131D42AC72D5B0027703A /* ViewController.swift in Sources */,
+				971131D42AC72D5B0027703A /* SetupColorViewController.swift in Sources */,
+				971132002AC895440027703A /* StartViewController.swift in Sources */,
 				971131D02AC72D5B0027703A /* AppDelegate.swift in Sources */,
 				971131D22AC72D5B0027703A /* SceneDelegate.swift in Sources */,
 			);
